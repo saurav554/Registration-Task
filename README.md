@@ -16,9 +16,16 @@ To start the backend to run this cmd line ###`nodemon index.js`
 
 The API server uses Mongo DB, so you will need to install mongo then open another terminal tab and run: mongod
 
+###`npm run build`.
+Builds the app for production to the build folder.
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.
+Your app is ready to be deployed!
+
+See the section about deployment for more information.
+
 ### Features available in the application:
-
-
 1.Perfect Folder Structure
 2.User Registration
 3.Login
