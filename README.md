@@ -1,12 +1,30 @@
-# Ticket Master 
-Full Stack Ticket Management application which allows user to register or login and then create and handle tickets with respect to customers
-and their issues pertaining to a specific department and accordingly assign employees.
+#REGISTRATION-PAGE#
 
-CRUD Operations can be done for customers,employees,departments and Tickets
+### Install:
 
-Tickets showcase a pie chart for pending tickets with respect to their priority and a bar graph for pending tickets with respect to their departments
+### Run : npm install This would install all the dependenices listed in package.json
 
-Ability to search for tickets by code 
+###Run : Make sure you install locally or globally. npm install
 
-Can view pending tickets and completed tickets with respect to each Listing in the customers, departments and employees category
+Once in the project directory, you can use yarn to run the project with npm: ###`npm start`
 
+Open http://localhost:3000 to view it in the browser.
+
+The page will reload if you make edits. You will also see any lint errors in the console.
+
+To start the backend to run this cmd line ###`nodemon index.js`
+
+The API server uses Mongo DB, so you will need to install mongo then open another terminal tab and run: mongod
+
+### Features available in the application:
+
+
+1.Perfect Folder Structure
+2.User Registration
+3.Login
+4.React-Redux (store implemetation)
+5.Route & Private Route (Authentication)
+6.Form Validations
+7.Load data from local JSON file (mock data)
+8.No external libraries
+9.Custom Utils functions (Email validation, password convert in to (Jwt & localstorage, ... etc)
